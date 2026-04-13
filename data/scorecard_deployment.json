@@ -1,0 +1,438 @@
+{
+    "meta": {
+        "base_points": 524,
+        "version": "3.1",
+        "theoretical_min": 454,
+        "theoretical_max": 596
+    },
+    "features": {
+        "bc_open_to_buy": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 975.0,
+                    "points": -2
+                },
+                {
+                    "min": 975.0,
+                    "max": 3031.0,
+                    "points": -1
+                },
+                {
+                    "min": 3031.0,
+                    "max": 5460.0,
+                    "points": 0
+                },
+                {
+                    "min": 5460.0,
+                    "max": 13010.0,
+                    "points": 0
+                },
+                {
+                    "min": 13010.0,
+                    "max": 9999999999.0,
+                    "points": 3
+                }
+            ]
+        },
+        "avg_cur_bal": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 3285.0,
+                    "points": -2
+                },
+                {
+                    "min": 3285.0,
+                    "max": 7263.0,
+                    "points": -1
+                },
+                {
+                    "min": 7263.0,
+                    "max": 17263.25,
+                    "points": 0
+                },
+                {
+                    "min": 17263.25,
+                    "max": 9999999999.0,
+                    "points": 4
+                }
+            ]
+        },
+        "mths_since_recent_inq": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 1.0,
+                    "points": -2
+                },
+                {
+                    "min": 1.0,
+                    "max": 2.0,
+                    "points": -1
+                },
+                {
+                    "min": 2.0,
+                    "max": 3.0,
+                    "points": -1
+                },
+                {
+                    "min": 3.0,
+                    "max": 5.0,
+                    "points": 0
+                },
+                {
+                    "min": 5.0,
+                    "max": 7.0,
+                    "points": 0
+                },
+                {
+                    "min": 7.0,
+                    "max": 9.0,
+                    "points": 0
+                },
+                {
+                    "min": 9.0,
+                    "max": 12.0,
+                    "points": 1
+                },
+                {
+                    "min": 12.0,
+                    "max": 18.0,
+                    "points": 1
+                },
+                {
+                    "min": 18.0,
+                    "max": 9999999999.0,
+                    "points": 2
+                }
+            ]
+        },
+        "dti": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 7.4,
+                    "points": 5
+                },
+                {
+                    "min": 7.4,
+                    "max": 10.56,
+                    "points": 4
+                },
+                {
+                    "min": 10.56,
+                    "max": 13.06,
+                    "points": 3
+                },
+                {
+                    "min": 13.06,
+                    "max": 15.34,
+                    "points": 2
+                },
+                {
+                    "min": 15.34,
+                    "max": 17.61,
+                    "points": 1
+                },
+                {
+                    "min": 17.61,
+                    "max": 19.94,
+                    "points": 0
+                },
+                {
+                    "min": 19.94,
+                    "max": 22.52,
+                    "points": -1
+                },
+                {
+                    "min": 22.52,
+                    "max": 25.56,
+                    "points": -2
+                },
+                {
+                    "min": 25.56,
+                    "max": 29.64,
+                    "points": -3
+                },
+                {
+                    "min": 29.64,
+                    "max": 9999999999.0,
+                    "points": -6
+                }
+            ]
+        },
+        "annual_inc": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 34000.0,
+                    "points": -4
+                },
+                {
+                    "min": 34000.0,
+                    "max": 42000.0,
+                    "points": -3
+                },
+                {
+                    "min": 42000.0,
+                    "max": 50000.0,
+                    "points": -2
+                },
+                {
+                    "min": 50000.0,
+                    "max": 56000.0,
+                    "points": -2
+                },
+                {
+                    "min": 56000.0,
+                    "max": 65000.0,
+                    "points": -1
+                },
+                {
+                    "min": 65000.0,
+                    "max": 72100.0,
+                    "points": 0
+                },
+                {
+                    "min": 72100.0,
+                    "max": 84000.0,
+                    "points": 1
+                },
+                {
+                    "min": 84000.0,
+                    "max": 99000.0,
+                    "points": 3
+                },
+                {
+                    "min": 99000.0,
+                    "max": 125000.0,
+                    "points": 5
+                },
+                {
+                    "min": 125000.0,
+                    "max": 9999999999.0,
+                    "points": 7
+                }
+            ]
+        },
+        "fico_range_low": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 665.0,
+                    "points": -3
+                },
+                {
+                    "min": 665.0,
+                    "max": 670.0,
+                    "points": -2
+                },
+                {
+                    "min": 670.0,
+                    "max": 675.0,
+                    "points": -2
+                },
+                {
+                    "min": 675.0,
+                    "max": 680.0,
+                    "points": -1
+                },
+                {
+                    "min": 680.0,
+                    "max": 690.0,
+                    "points": -1
+                },
+                {
+                    "min": 690.0,
+                    "max": 695.0,
+                    "points": 0
+                },
+                {
+                    "min": 695.0,
+                    "max": 705.0,
+                    "points": 1
+                },
+                {
+                    "min": 705.0,
+                    "max": 715.0,
+                    "points": 2
+                },
+                {
+                    "min": 715.0,
+                    "max": 735.0,
+                    "points": 4
+                },
+                {
+                    "min": 735.0,
+                    "max": 9999999999.0,
+                    "points": 7
+                }
+            ]
+        },
+        "acc_open_past_24mths": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 1.5,
+                    "points": 7
+                },
+                {
+                    "min": 1.5,
+                    "max": 2.5,
+                    "points": 5
+                },
+                {
+                    "min": 2.5,
+                    "max": 3.5,
+                    "points": 2
+                },
+                {
+                    "min": 3.5,
+                    "max": 4.5,
+                    "points": 0
+                },
+                {
+                    "min": 4.5,
+                    "max": 5.5,
+                    "points": -1
+                },
+                {
+                    "min": 5.5,
+                    "max": 6.5,
+                    "points": -3
+                },
+                {
+                    "min": 6.5,
+                    "max": 7.5,
+                    "points": -4
+                },
+                {
+                    "min": 7.5,
+                    "max": 9.5,
+                    "points": -6
+                },
+                {
+                    "min": 9.5,
+                    "max": 9999999999.0,
+                    "points": -9
+                }
+            ]
+        },
+        "num_actv_rev_tl": {
+            "type": "numeric",
+            "rules": [
+                {
+                    "min": -999999999.0,
+                    "max": 2.5,
+                    "points": 1
+                },
+                {
+                    "min": 2.5,
+                    "max": 3.5,
+                    "points": 1
+                },
+                {
+                    "min": 3.5,
+                    "max": 4.5,
+                    "points": 1
+                },
+                {
+                    "min": 4.5,
+                    "max": 5.5,
+                    "points": 0
+                },
+                {
+                    "min": 5.5,
+                    "max": 6.5,
+                    "points": 0
+                },
+                {
+                    "min": 6.5,
+                    "max": 7.5,
+                    "points": -1
+                },
+                {
+                    "min": 7.5,
+                    "max": 9.5,
+                    "points": -1
+                },
+                {
+                    "min": 9.5,
+                    "max": 11.5,
+                    "points": -2
+                },
+                {
+                    "min": 11.5,
+                    "max": 9999999999.0,
+                    "points": -2
+                }
+            ]
+        },
+        "term": {
+            "type": "category",
+            "map": {
+                "36": 7,
+                "60": -15
+            }
+        },
+        "grade": {
+            "type": "category",
+            "map": {
+                "A": 23,
+                "B": 9,
+                "C": -2,
+                "D": -10,
+                "E": -16,
+                "F": -21,
+                "G": -21
+            }
+        },
+        "verification_status": {
+            "type": "category",
+            "map": {
+                "Not Verified": 2,
+                "Source Verified": 0,
+                "Verified": -1
+            }
+        },
+        "home_ownership": {
+            "type": "category",
+            "map": {
+                "MORTGAGE": 3,
+                "ANY": 3,
+                "OWN": -1,
+                "OTHER": -1,
+                "RENT": -3,
+                "NONE": 3
+            }
+        },
+        "purpose": {
+            "type": "category",
+            "map": {
+                "car": 1,
+                "credit_card": 1,
+                "major_purchase": 1,
+                "wedding": 1,
+                "home_improvement": 0,
+                "vacation": 0,
+                "other": 0,
+                "medical": 0,
+                "debt_consolidation": 0,
+                "moving": 0,
+                "Asset_other": 0,
+                "small_business": 0,
+                "educational": 0,
+                "house": 0,
+                "renewable_energy": 0
+            }
+        }
+    }
+}
